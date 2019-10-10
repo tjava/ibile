@@ -1,0 +1,32 @@
+<ion-content padding>
+
+  
+  <div>
+    <ion-list class="list" inset>
+        <ion-item class="label">
+            <img src="assets/imgs/b6.png" alt="">
+          </ion-item>
+      <ion-item class="label">
+        <ion-label floating>First Number</ion-label>
+        <ion-input required type="number" [(ngModel)]="first_number"></ion-input>
+      </ion-item>
+      <ion-item class="label">
+        <ion-label floating>Second Number</ion-label>
+        <ion-input type="number"  [(ngModel)]="second_number"></ion-input>
+      </ion-item>
+      <ion-item class="label">
+        <ion-label floating>Third Number</ion-label>
+        <ion-input type="number"  [(ngModel)]="third_number"></ion-input>
+      </ion-item>
+      <ion-item class="label">
+        <ion-label floating>Fourth Number</ion-label>
+        <ion-input type="number"  [(ngModel)]="fourt_number"></ion-input>
+      </ion-item>
+    </ion-list>
+  </div>
+  <br>
+  <div text-center>
+    <button class="myButton" ion-button round outline (click)="compute()">Teyepe</button>
+  </div>
+
+</ion-content>
